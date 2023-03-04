@@ -1,0 +1,50 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+parts:
+  - caption: Profile
+    chapters:
+    - file: Profile/Interests
+      sections:
+      - url: https://deugz.github.io/nb-phd/_build/html/intro.html
+        title: "Amorphous Ice (📖 A)"
+      - url: https://deugz.github.io/nb-museum/_build/html/intro.html
+        title: "Planet Formation (📖 B)"
+    - file: Profile/CV/CV_Main
+  - caption: Project
+    chapters:
+    - file: Projects/Manifesto 
+    - file: Projects/Science_ft_People 
+    - file: Projects/Contribute    
+  - caption: Research
+    chapters:
+    - file: Research/Research_Main
+  - caption: Teaching
+    chapters:
+    - file: Teaching/Teaching_Main
+  - caption: Blog / Versions
+    chapters:
+    - file: Blog/Blog_Main
+      sections:
+      - file: Blog/Posts/Scientific_Publication
+      - file: Blog/Posts/Outreach
+      - file: Blog/Posts/Annie_woman      
+      - file: Blog/Posts/ODAPA
+    - file: Blog/Version_Main
+      sections:
+      - file: Blog/Version/version0
+      - file: Blog/Version/version1 
+  - caption: Appendix
+    chapters:
+    - file: Appendix/Litterature/bibliography
+    - file: Appendix/Help/Style_guide
+    - file: Appendix/Help_main
+      sections:
+      - file: Appendix/Help/The_Turing_Way     
+      - file: Appendix/Help/Anaconda_JB
+      - file: Appendix/Help/Jupyter
+      - file: Appendix/Help/Github_JB
+      - file: Appendix/Help/Binder_JB
+      - file: Appendix/Help/SemanticWeb
